@@ -146,15 +146,10 @@ nav ul li ul li a:hover {
 
 /* Animated Welcome text with hover */
 
-.animtext-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .center-text-box {
-    margin: 20% auto;
+    margin: 30% auto;
     width: 100%;
     font-size: 100px;
     font-family: 'Lexend Tera', sans-serif;
