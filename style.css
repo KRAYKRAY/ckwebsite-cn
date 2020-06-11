@@ -88,11 +88,15 @@ nav ul li ul li a:hover {
     padding: 18px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0 15px 10px -6px  #2C3539;
-
-    margin: 15px;
+    margin: 40px;
 }
-    
 
+.question:hover, .question:focus,
+.question:active {
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);    
+}
 .answer {
     font-family: 'Lexend Tera', sans-serif;
     color: #FFFFFF;
@@ -103,10 +107,17 @@ nav ul li ul li a:hover {
     width: 800px;
     padding: 20px;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 0 15px 10px -6px  #2C3539;
-    
-    
+    box-shadow: 0 15px 10px 5px  #2C3539;
+        
 }
+
+.answer:hover, .answer:focus,
+.answer:active {
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 
 /* Welcome with image as text */
 
